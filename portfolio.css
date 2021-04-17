@@ -8,10 +8,13 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("images/photo-1487088678257-3a541e6e3922.jpg");
+    background-image: url("images/photo-1528747045269-390fe33c19f2.jpg");
+    background-color: #6c5ce7;
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: rgb(59, 59, 119);
+    background-position: center;
+    
 }
 .menus a{
     text-decoration: none;
@@ -134,7 +137,7 @@ header .menus ul{
 }
 @keyframes skillmotioncp{
     0%{width: 1ch;}
-    100%{width: 13ch;}
+    100%{width: 14ch;}
 }
 .skill-container,.contactcontainer{
     /* border: 1px black solid; */
@@ -252,11 +255,31 @@ header .menus ul{
     align-items: center;
 }
 .aboutcontainer div{
-    border: 1px black solid;
+    /* border: 6px  blue solid; */
+    box-shadow: inset 0 0 5px grey;
     color: white;
     width: 90%;
     height: 80%;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding-left: 2%;
 }
+.aboutcontainer div a{
+    color: greenyellow;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+  }
