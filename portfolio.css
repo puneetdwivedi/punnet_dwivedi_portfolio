@@ -258,4 +258,5 @@ header .menus ul{
     height: 80%;
     font-size: 30px;
     font-family: cursive;
+    overflow-y: scroll;
 }
