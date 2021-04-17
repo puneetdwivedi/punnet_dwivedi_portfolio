@@ -164,7 +164,7 @@ header .menus ul{
 .skills ul li ,.skills p{
     list-style-type: lower-roman;
     font-size: 30px;
-    font-family: 'Orelega One', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 #familiarskill,#skillllogo{
     font-size: 25px;
@@ -182,7 +182,7 @@ header .menus ul{
     width: fit-content;
     height: fit-content;
     font-size: 30px;
-    font-family: 'Orelega One', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 .contact-whatsapp i{
     color: white;
@@ -194,7 +194,7 @@ header .menus ul{
     width: fit-content;
     height: fit-content;
     font-size: 30px;
-    font-family: 'Orelega One', cursive;
+    font-family: 'Roboto', sans-serif;
     /* border: 1px black solid; */
 }
 .contact-linkedin i{
@@ -208,7 +208,7 @@ header .menus ul{
     width: fit-content;
     height: fit-content;
     font-size: 30px;
-    font-family: 'Orelega One', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 .contact-facebook i{
     width: max-content;
@@ -230,7 +230,7 @@ header .menus ul{
     width: fit-content;
     height: fit-content;
     font-size: 30px;
-    font-family: 'Orelega One', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 .contact-insta i{
     width: max-content;
@@ -257,6 +257,6 @@ header .menus ul{
     width: 90%;
     height: 80%;
     font-size: 30px;
-    font-family: 'Orelega One', cursive;
+    font-family: 'Roboto', sans-serif;
     overflow-y: scroll;
 }
