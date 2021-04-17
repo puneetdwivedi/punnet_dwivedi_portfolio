@@ -161,8 +161,9 @@
         justify-content: center;
     }
     .textcontainer .greeting-container,.maincontainer .skillsanimation{
-        font-size: 18px;
-        width: fit-content;
+        font-size: 20px;
+        letter-spacing: 1px;
+        /* width: fit-content; */
     }
     .skill-container,.contactcontainer{
         justify-content: center;
