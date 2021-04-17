@@ -166,22 +166,22 @@
     .skill-container,.contactcontainer{
         justify-content: center;
         align-items: flex-start;
-        
     }
     .maincontainer .skillsanimation{
         margin-top: 7%;
     }
     .skills ul li,#familiarskill,#skillllogo{
         font-size: 22px;
+
     }
-    /* @keyframes skillmotionwd{
+    @keyframes skillmotionwd{
         0%{width: 1ch;}
         100%{width: 12ch;}
     }
     @keyframes skillmotioncp{
         0%{width: 1ch;}
         100%{width: 10ch;}
-    } */
+    }
     
 }
 @media screen and (max-width: 450px) {

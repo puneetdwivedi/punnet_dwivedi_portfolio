@@ -145,7 +145,7 @@ header .menus ul{
     align-items: center;
 }
 .skill-container .skills , .contactcontainer .contact{
-    width: 50%;
+    width: max-content;
     height: 90%;
     /* border: 1px black solid; */
     display: flex;
