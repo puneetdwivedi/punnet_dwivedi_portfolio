@@ -142,7 +142,7 @@
         width: 60%;
         height: 5vh;
         /* border: 1px black solid; */
-        /* margin-top: 3%; */
+        
     }
     body{
         background-size: 250%;
@@ -160,11 +160,7 @@
         align-items: center;
         justify-content: center;
     }
-    .textcontainer .greeting-container,.maincontainer .skillsanimation{
-        font-size: 20px;
-        letter-spacing: 1px;
-        /* width: fit-content; */
-    }
+    
     .skill-container,.contactcontainer{
         justify-content: center;
         align-items: flex-start;
