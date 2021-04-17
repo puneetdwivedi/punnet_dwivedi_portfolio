@@ -1,0 +1,188 @@
+@media  screen and (max-width: 915px) {
+    header .name{
+        font-size: 28px;
+    }
+    header .menus ul{
+        font-size: 18px;
+    }
+    header .menus ul a:hover{
+        font-size: 20px;
+    }
+    .textcontainer{
+        width: 35%;
+    }
+    .textcontainer .greeting-container,.textcontainer .skillsanimation{
+        font-size: 25px;
+    }
+    .maincontainer .imagecontainer img{
+        width: 139%;
+        height: 117%;
+    }
+    .maincontainer .imagecontainer{
+        margin-left: 4%;
+        width: 35%;
+    }
+    body{
+        background-size: 115%;
+    }
+    .contact-whatsapp,.contact-linkedin,.contact-facebook ,.contact-twitter,.contact-insta{
+        font-size: 27px;
+    }
+    .skills ul li,#familiarskill,#skillllogo{
+        font-size: 27px;
+    }
+}
+@media  screen and (max-width: 790px){
+    body{
+        background-size: 135%;
+    }
+    header .name{
+        width: 30%;
+        font-size: 26px;
+    }
+    header .menus ul{
+        font-size: 17px;
+    }
+    header .menus ul a:hover{
+        font-size: 19px;
+    }
+    .maincontainer .imagecontainer{
+        width: 37%;
+        margin-left: 5%;
+    }
+    .maincontainer .imagecontainer img{
+        width: 145%;
+        height: 122%;
+    }
+    .skills ul li,#familiarskill,#skillllogo{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        background-size: 150%;
+    }
+    header .menus {
+        width: 60%;
+    }
+    .maincontainer .imagecontainer img{
+        width: 145%;
+        height: 116%;
+    }
+    .maincontainer .imagecontainer{
+        width: 38%;
+    }
+    .textcontainer .greeting-container,.textcontainer .skillsanimation{
+        font-size: 22px;
+    }
+    .skills ul li,#familiarskill,#skillllogo{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 590px) {
+    header .menus ul{
+        font-size: 14px;
+    }
+    header .menus ul a:hover{
+        font-size: 19px;
+    }
+    header .name{
+        font-size: 23px;
+        width: 33%;
+    }
+    .maincontainer .imagecontainer{
+        width: 48%;
+        margin: 0px;
+    }
+    .textcontainer .greeting-container,.textcontainer .skillsanimation{
+        font-size: 19px;
+    }
+    body{
+        background-size: 160%;
+    }
+    .maincontainer .imagecontainer img{
+        width: 135%;
+        height: 122%;
+    }
+    .skills ul li,#familiarskill,#skillllogo{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 550px){
+    body{
+        background-size: 180%;
+    }
+    .maincontainer .imagecontainer{
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 498px){
+    .maincontainer{
+        height: 84vh;
+    }
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+    }
+    header .menus {
+        width: 97%;
+        /* border: 1px black solid; */
+        margin-right: 0px;
+        height: 7vh;
+    }
+    header .menus ul{
+        font-size: 16px;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    header .name{
+        width: 60%;
+        height: 5vh;
+        /* border: 1px black solid; */
+        /* margin-top: 3%; */
+    }
+    body{
+        background-size: 250%;
+    }
+    .maincontainer{
+        padding: 0px;
+    }
+    .maincontainer .imagecontainer img{
+        width: 127%;
+        height: 116%;
+    }
+    .textcontainer {
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+    }
+    .textcontainer .greeting-container,.maincontainer .skillsanimation{
+        font-size: 18px;
+        
+    }
+    .maincontainer .skillsanimation{
+        margin-top: 7%;
+    }
+    .skills ul li,#familiarskill,#skillllogo{
+        font-size: 17px;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    .maincontainer .imagecontainer img{
+        width: 138%;
+        height: 109%;
+    }
+}
+@media screen and (max-width: 401px) {
+    .maincontainer .imagecontainer img{
+        width: 138%;
+        height: 109%;
+    }
+    .maincontainer .imagecontainer {
+        width: 42%;
+    }
+}
