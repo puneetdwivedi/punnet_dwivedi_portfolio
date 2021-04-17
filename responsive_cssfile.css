@@ -163,6 +163,11 @@
     .textcontainer .greeting-container,.maincontainer .skillsanimation{
         font-size: 22px;
     }
+    .skill-container,.contactcontainer{
+        justify-content: center;
+        align-items: flex-start;
+        
+    }
     .maincontainer .skillsanimation{
         margin-top: 7%;
     }
