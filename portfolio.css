@@ -11,7 +11,7 @@ body{
     background-image: url("images/photo-1487088678257-3a541e6e3922.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    
+    background-color: rgb(59, 59, 119);
 }
 .menus a{
     text-decoration: none;
