@@ -146,7 +146,7 @@
     }
     body{
         background-size: 250%;
-        overflow: hidden;
+        overflow-y: hidden;
     }
     .maincontainer{
         padding: 0px;
