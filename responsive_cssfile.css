@@ -161,14 +161,21 @@
         justify-content: center;
     }
     .textcontainer .greeting-container,.maincontainer .skillsanimation{
-        font-size: 25px;
-        
+        font-size: 18px;
     }
     .maincontainer .skillsanimation{
         margin-top: 7%;
     }
     .skills ul li,#familiarskill,#skillllogo{
         font-size: 17px;
+    }
+    @keyframes skillmotionwd{
+        0%{width: 1ch;}
+        100%{width: 10ch;}
+    }
+    @keyframes skillmotioncp{
+        0%{width: 1ch;}
+        100%{width: 8ch;}
     }
     
 }
