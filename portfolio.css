@@ -107,7 +107,7 @@ header .menus ul{
     /* border: 1px black solid; */
     font-size: 33px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     color: white;
     cursor: pointer;
@@ -117,7 +117,7 @@ header .menus ul{
     font-size: 30px;
     color: white;
     font-family: 'Nunito Sans', sans-serif;
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     animation: skillmotionwd 5s steps(16) infinite;
     transition: ease-in-out all;
