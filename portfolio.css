@@ -270,7 +270,7 @@ header .menus ul{
     font-family: 'Roboto', sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
-    word-break: break-all;
+    word-break:inherit;
     scroll-behavior: smooth;
     padding-left: 2%;
 }
