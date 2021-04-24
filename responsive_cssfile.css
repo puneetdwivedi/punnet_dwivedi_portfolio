@@ -230,14 +230,27 @@
     ::-webkit-scrollbar {
         width: 12px;
       }
-      .projectlogo{
+    .projectlogo{
         font-size: 20px;
     }
     .projects{
         font-size: 13px;
-        width: 90%;
+        width: 95%;
         margin-top: 8%;
         align-items: baseline;
+    }
+    #newswebsite,#textutils,#dinogame,#clock{
+        width: 100%;
+        display: flex;
+        box-shadow: 5px 3px #4150a7;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 2%;
+        padding: 1%;
+        flex-direction: column;
+        font-size: 17px;
+    }
+    #newswebsite p,#textutils p,#dinogame p,#clock p{
+        margin: 2px 0;
     }
     
 }
