@@ -163,22 +163,22 @@ header .menus ul{
     align-items: center;
     color: white;
 }
-.skills h3,.contact h3{
+.skills h3,.contact h3 {
     color: #ffeaa7;
     font-size: 31px;
     font-family: 'Cabin';
     word-spacing: 1pc;
     letter-spacing: 2px;
 }
-.skills ul li ,.skills p{
+.skills ul li{
     list-style-type:disc;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
-#familiarskill,#skillllogo{
+/* #familiarskill,#skillllogo{
     font-size: 25px;
     list-style-type: none;
-}
+} */
 .contactcontainer a{
     text-decoration: none;
     color: white;
@@ -252,7 +252,7 @@ header .menus ul{
 .contact-whatsapp:hover,.contact-linkedin:hover,.contact-facebook:hover ,.contact-twitter:hover,.contact-insta:hover{
     color: #ffeaa7;
 }
-.aboutcontainer,.projectcontainer{
+.aboutcontainer{
     /* border: 1px black solid; */
     width: 100%;
     height: 90vh;
@@ -277,6 +277,79 @@ header .menus ul{
 .aboutcontainer div a{
     color: greenyellow;
 }
+.projectlogo{
+    /* border: 1px black solid; */
+    color: #ffeaa7;
+    font-size: 31px;
+    font-family: 'Cabin';
+    word-spacing: 1pc;
+    letter-spacing: 2px;
+    height: fit-content;
+    width: max-content;
+    margin-top: 2%;
+    text-decoration: underline;
+}
+.projectlogo h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.projectcontainer{
+    /* border: 1px black solid; */
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 1%;
+}
+.projectcontainer a{
+    color:greenyellow
+}
+.projectcontainer a:hover{
+    color:bisque;
+    cursor: pointer;
+    font-size: 25px;
+}
+.projects{
+    /* border: 1px black solid; */
+    width: max-content;
+    margin-top: 1%;
+    padding-top: 1%;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 2%;
+}
+
+#newswebsite,#textutils,#dinogame,#clock{
+    padding-top: 1%;
+    /* border: 1px black solid; */
+    width: 100%;
+    width: max-content;
+    box-shadow: 5px 3px #4150a7;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+#newswebsite h3,#textutils h3,#dinogame h3,#clock h3{
+    margin: 0 auto;
+    text-align-last: center;
+    text-decoration:underline;
+}
+#newswebsite h3:hover,#textutils h3:hover,#dinogame h3:hover,#clock h3:hover{
+    color: bisque;
+    cursor: pointer;
+}
+
+
+
 
 ::-webkit-scrollbar {
     width: 20px;
@@ -291,3 +364,4 @@ header .menus ul{
     background: red;
     border-radius: 10px;
  }
+

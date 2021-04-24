@@ -35,6 +35,12 @@
         font-size: 27px;
         padding: 2%;
     }
+    .projectlogo{
+        font-size: 26px;
+    }
+    .projects{
+        font-size: 20px;
+    }
 }
 @media  screen and (max-width: 790px){
     body{
@@ -64,10 +70,17 @@
     ::-webkit-scrollbar {
         width: 17px;
       }
-      .aboutcontainer div{
-          font-size: 25px;
-          padding: 2%;
-      }
+    .aboutcontainer div{
+        font-size: 25px;
+        padding: 2%;
+    }
+    .projectlogo{
+        font-size: 24px;
+    }
+    .projects{
+        font-size: 18px;
+        width: 98%;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -89,6 +102,12 @@
     }
     .skills ul li,#familiarskill,#skillllogo{
         font-size: 22px;
+    }
+    .projectlogo{
+        font-size: 22px;
+    }
+    .projects{
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 590px) {
@@ -123,6 +142,13 @@
         font-size: 22px;
         padding: 2%;
     }
+    .projectlogo{
+        font-size: 20px;
+    }
+    .projects{
+        font-size: 15px;
+        width: 95%;
+    }
 }
 @media screen and (max-width: 550px){
     body{
@@ -130,6 +156,13 @@
     }
     .maincontainer .imagecontainer{
         margin: 0px;
+    }
+    .projectlogo{
+        font-size: 20px;
+    }
+    .projects{
+        font-size: 14px;
+        width: 95%;
     }
 }
 @media screen and (max-width: 498px){
@@ -197,6 +230,14 @@
     ::-webkit-scrollbar {
         width: 12px;
       }
+      .projectlogo{
+        font-size: 18px;
+    }
+    .projects{
+        font-size: 12px;
+        width: 95%;
+        margin-top: 3%;
+    }
     
 }
 @media screen and (max-width: 450px) {
@@ -206,6 +247,10 @@
     }
     body{
         background-size: 300%;
+    }
+    .projects{
+        font-size: 11px;
+        width: 95%;
     }
 }
 @media screen and (max-width: 401px) {
