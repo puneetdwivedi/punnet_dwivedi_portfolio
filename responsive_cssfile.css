@@ -149,6 +149,9 @@
         font-size: 15px;
         width: 95%;
     }
+    .projectcontainer a:hover{
+        font-size: 21px;
+    }
 }
 @media screen and (max-width: 550px){
     body{
@@ -252,6 +255,9 @@
     }
     #newswebsite p,#textutils p,#dinogame p,#clock p{
         margin: 2px 0;
+    }
+    .projectcontainer a:hover{
+        font-size: 19px;
     }
     
 }

@@ -316,6 +316,7 @@ header .menus ul{
 .projects{
     /* border: 1px black solid; */
     width: max-content;
+    height: 70vh;
     margin-top: 1%;
     padding-top: 1%;
     font-size: 23px;
