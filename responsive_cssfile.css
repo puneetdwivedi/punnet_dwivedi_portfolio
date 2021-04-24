@@ -254,7 +254,7 @@
         margin: 3% 0;
     }
     #newswebsite p,#textutils p,#dinogame p,#clock p{
-        margin: 2px 0;
+        margin: 2px 2px;
     }
     .projectcontainer a:hover{
         font-size: 19px;
