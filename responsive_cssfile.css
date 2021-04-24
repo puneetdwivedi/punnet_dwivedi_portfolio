@@ -231,12 +231,13 @@
         width: 12px;
       }
       .projectlogo{
-        font-size: 18px;
+        font-size: 20px;
     }
     .projects{
-        font-size: 12px;
-        width: 95%;
+        font-size: 13px;
+        width: 90%;
         margin-top: 3%;
+        align-items: baseline;
     }
     
 }
@@ -249,7 +250,7 @@
         background-size: 300%;
     }
     .projects{
-        font-size: 11px;
+        font-size: 12px;
         width: 95%;
     }
 }
