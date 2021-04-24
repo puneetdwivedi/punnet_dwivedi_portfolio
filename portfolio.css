@@ -303,7 +303,7 @@ header .menus ul{
     align-items: center;
     flex-direction: column;
     color: white;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
 .projectcontainer a{
     color:greenyellow
@@ -326,6 +326,7 @@ header .menus ul{
     overflow-y: scroll;
     overflow-x: hidden;
     padding-right: 2%;
+    box-shadow: inset 4px 8px grey;
 }
 
 #newswebsite,#textutils,#dinogame,#clock{
